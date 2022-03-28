@@ -1,0 +1,4 @@
+3/27/22
+100mmx100mm 24V30W heater on 120x120x6mm cast plate took:
+10min,18sec to 80C
+11min,18sec to 85C

@@ -2,4 +2,6 @@ Heater_generic may not be the best solution for this configuration. If it is set
 
 A workaround for this may be a macro that would pull current thermistor temp, and add 5c to a generic_heater, wait 30 seconds, then add 5 if its at the input temp +5, and repeat until its at a given temp.
 
+Another workaround is the obvious, implementing my own Klipper module.
+
 Until Klipper has full support for multiple heater_bed sections, the entirety of the projects function may have workarounds.
