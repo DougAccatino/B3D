@@ -7,3 +7,4 @@ Another workaround is the obvious, implementing my own Klipper module.
 
 Until Klipper has full support for multiple heater_bed sections, the entirety of the projects function may have workarounds.
 *I believe i have figured out a fix for this. Testing will be required.
+3/30/22 - Testing has revealed a most probable fix, utilizing the [verify_heaters] section to alter heater_generic parameters.
