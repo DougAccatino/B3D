@@ -2,7 +2,6 @@
 # B3D
 ***
 <h2 align="center">!!Work in progress!!</h2>
-
 ***
  <h1 align="center">Modular 3D printer bed system</h1>
 
