@@ -1,9 +1,9 @@
 ![image](https://github.com/DougAccatino/B3D/blob/main/Images/Cad_Modelv2.png?raw=true)
 # B3D
 ***
-<h2 align="center">!!Work in progress!!</h2>
+#<h2 align="center">!!Work in progress!!</h2>
 
- <h1 align="center">Modular 3D printer bed system</h1>
+# <h1 align="center">Modular 3D printer bed system</h1>
 
  This project originally started with the intention of utilizing Klipper firmware
  in order to develop a modular bed system that deploys multiple grid based beds. An
