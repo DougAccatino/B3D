@@ -1,3 +1,4 @@
+Issue #A001
 Heater_generic may not be the best solution for this configuration. If it is set on, and doesnt meet its expected heat output, it will shut down.
 
 A workaround for this may be a macro that would pull current thermistor temp, and add 5c to a generic_heater, wait 30 seconds, then add 5 if its at the input temp +5, and repeat until its at a given temp.
@@ -5,3 +6,5 @@ A workaround for this may be a macro that would pull current thermistor temp, an
 Another workaround is the obvious, implementing my own Klipper module.
 
 Until Klipper has full support for multiple heater_bed sections, the entirety of the projects function may have workarounds.
+*I believe i have figured out a fix for this. Testing will be required.
+3/30/22 - Testing has revealed a most probable fix, utilizing the [verify_heaters] section to alter heater_generic parameters.

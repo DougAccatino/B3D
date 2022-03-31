@@ -1,2 +1,9 @@
 3/27/22
-Commenced first heat-up trial to test 24V30W heater on the aluminum. Initially it got to 50C through auto-Pid tune. Then tried 100C, Klipper canceled the process as it was not heating as expected, but did not show an  error. I walked it up to 100C. it took about as long as an Ender 5 plus stock bed heater.
+Commenced first heat-up trial to test 24V30W heater on the aluminum. Initially it got to 50C through auto-Pid tune. 
+Then tried 100C, Klipper canceled the process as it was not heating as expected, but did not show an  error. I walked it up by 5 to get 100C. If i didnt walk it up
+by 5, then Klipper would shut down due to the heater taking too long.
+It took about as long as an Ender 5 plus stock bed heater.
+
+***
+3/28/22
+I've figured out how what config sections to utilize to allow the heater to run up without Klipper shutting it down.

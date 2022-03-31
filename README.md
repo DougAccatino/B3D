@@ -1,4 +1,6 @@
+![image](https://github.com/DougAccatino/B3D/blob/main/Images/Cad_Modelv2.png?raw=true)
 # B3D
+!!Work in progress!!
  Modular 3D printer bed system
 
  This project originally started with the intention of utilizing Klipper firmware
@@ -10,7 +12,7 @@
  The primary intention is to combat unnecessary power usage of larger beds by only toggling the needed space, and also minimize the amount of warping on larger beds
  by evenly distributing heat on multiple smaller beds, with an expansion gap of <= 1mm to reduce the overall stress across each mini bed for a mutual distribution of distortion.
 
-#########################################################################################
+***
 
  The goal for subject zero is to use 
  9 - 120mm x 120mm x 6mm MIC6 cast aluminum plates
@@ -35,7 +37,7 @@
  
  This circuit will contain a voltage divider with one 100k Ohm resistor and one of the 100k NTC thermistors. 
 
-#########################################################################################
+***
 
 When I flashed Klipper to the grand central, I plugged the Grand Central board directly to the Raspberry pi via USB, and proceeded with the follow steps:
 
@@ -77,7 +79,7 @@ When I flashed Klipper to the grand central, I plugged the Grand Central board d
 
     *When flashing for the first time, make sure that OctoPrint is not connected *directly to the printer (from the OctoPrint web page, under the "Connection" *section, click "Disconnect").
 
-#########################################################################################
+***
 
 Once the flash is completed, you have to configure your printer.cfg to recognize and use the Grand Central mcu. *Note: your serial will be different. Do not just copy and paste that, it wont work. The lines I've added to printer.cfg are as followed
 
