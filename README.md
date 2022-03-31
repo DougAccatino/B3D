@@ -4,7 +4,7 @@
 <p align="center">!!Work in progress!!</p>
 
 ***
- Modular 3D printer bed system
+ <p align="center">Modular 3D printer bed system</p>
 
  This project originally started with the intention of utilizing Klipper firmware
  in order to develop a modular bed system that deploys multiple grid based beds. An
