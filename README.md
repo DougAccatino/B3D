@@ -1,7 +1,7 @@
 ![image](https://github.com/DougAccatino/B3D/blob/main/Images/Cad_Modelv2.png?raw=true)
 # B3D
 ***
-<p style="text-align: center;">!!Work in progress!!<p>
+<p style="text-align: center;">!!Work in progress!!</p>
 ***
  Modular 3D printer bed system
 
