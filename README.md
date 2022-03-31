@@ -1,7 +1,7 @@
 ![image](https://github.com/DougAccatino/B3D/blob/main/Images/Cad_Modelv2.png?raw=true)
 # B3D
 ***
-<p align="center">!!Work in progress!!</p>
+<h2 align="center">!!Work in progress!!</h2>
 
 ***
  <h1 align="center">Modular 3D printer bed system</h1>
