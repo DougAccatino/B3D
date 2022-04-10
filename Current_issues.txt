@@ -8,3 +8,7 @@ Another workaround is the obvious, implementing my own Klipper module.
 Until Klipper has full support for multiple heater_bed sections, the entirety of the projects function may have workarounds.
 *I believe i have figured out a fix for this. Testing will be required.
 3/30/22 - Testing has revealed a most probable fix, utilizing the [verify_heaters] section to alter heater_generic parameters.
+
+Issue #A002
+4/10/22
+30W heaters arent quite strong enough to make it to 100C. they make it to about 70c before throwing errors. Looks like with everything together, other components are heat soaking. 60W heaters are on order.
