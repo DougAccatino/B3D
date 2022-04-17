@@ -1,0 +1,12 @@
+56.1W total at on-state with DIY heat pad
+506W total at on-state with Stock E5+ bed
+
+11.2W idle
+
+DIY Heat pad 100x100
+45.1W @ 80% PWM 
+0.60Amp
+
+E5+ Stock Heater 370x370
+490W @ 100% PWM
+4.23Amp
